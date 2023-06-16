@@ -1,5 +1,6 @@
 // Slider(all Slides in a container)
 const slider = document.querySelector(".slider")
+
 // All trails 
 const trail = document.querySelector(".trail").querySelectorAll("div")
 
@@ -9,6 +10,7 @@ let value = 0
 let trailValue = 0
 // interval (Duration)
 let interval = 4000
+
 
 // Function to slide forward
 const slide = (condition) => {
